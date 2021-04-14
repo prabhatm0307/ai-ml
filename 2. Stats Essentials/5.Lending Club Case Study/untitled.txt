@@ -1,0 +1,58 @@
+1. Univariate Analysis: - Done
+    A. Continous Variables:
+        Correlation/Heat map
+        1. Loan Amount
+        2. Interest Rate
+        3. Annual Income
+    B. Categorical Variables:
+        1. emp_length
+        2. home_ownership
+        3. verification_status
+        4. loan_status
+        5. purpose
+        6. issue_year
+
+
+
+2. Bi-variate Analysis: 
+    A. Plot b/w driving factors
+        1.Annual Income Vs Purpose Of Loan
+        2.Trust Customer Classification
+        3.Loan Term Vs Delinquent Months
+        4.Loan Term Vs Credit Category
+        5.Loan Term Vs Years In Current Job
+        6.Loan Payment Chances Vs Home Ownership
+    
+   B. Plot against target variable
+       1. Grade vs loan status
+       2. Employee length vs loan status
+       3. Home Ownership vs loan status
+       4. Verification vs loan status
+       5. Purpose vs loan status
+       6. Term vs loan status
+
+['loan_amnt', 'funded_amnt', 'funded_amnt_inv', 'int_rate', 'installment', 'annual_inc', 'dti', 'delinq_2yrs', 'inq_last_6mths', 'mths_since_last_delinq', 'open_acc', 'pub_rec', 'revol_bal', 'revol_util', 'total_acc', 'out_prncp', 'out_prncp_inv', 'total_pymnt', 'total_pymnt_inv', 'total_rec_prncp', 'total_rec_int', 'total_rec_late_fee', 'recoveries', 'collection_recovery_fee', 'last_pymnt_amnt', 'pub_rec_bankruptcies', 'loan_amt_income_ratio', 'frequency']
+
+loan_amnt,funded_amnt,funded_amnt_inv,installment,total_pymnt,total_pymnt_inv,total_rec_prncp
+recoveries,collection_recovery_fee
+pub_rec,pub_rec_bankruptcies
+open_acc,total_acc
+out_prncp,out_prncp_inv
+
+
+int_rate,total_acc
+delinq_2yrs,mths_since_last_delinq
+revol_util,open_acc
+
+Linear Regression:
+1. Create X and y
+2. Create train and test data set
+3. Train your model on train data - model fit, params, summary ( coffiecients, t-score, p-value, r-squared, f-stats), Plot
+4. Residual Analysis (y_pred, y_train) - check the assumptions
+5. Evaluate the model on test data
+6. Validation - RMSE, R Squared, plot scatter
+
+
+
+
+4. 
