@@ -1,0 +1,7 @@
+SCG Note -
+
+1. Cost function is same as loss function.
+2. Logistic R - Solver different types ofsolver - what are solvers. read sklearn document?
+3. weightage of dependent variable with independent variables? 
+4. Multi class / multi label and multi output classification?
+
